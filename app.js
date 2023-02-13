@@ -7,7 +7,7 @@ const btn = document.querySelector('button');
 
 const profil = document.querySelector('.profil-linkedin');
 
-const link = document.querySelector('a');
+
 // console.log(profil);
 
 const icone = document.querySelector('.fa-times');
@@ -34,7 +34,7 @@ btn.addEventListener('click', () => {
 });
 
 
-link.addEventListener('click', () => {
+icone.addEventListener('click', () => {
   //au click, je fais disparaitre la modale
   modal.style.display = 'none';
 
