@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Modale au Scroll</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="container section1">
+            <div class="section__title">
+                <h1> Section 1 </h1>
+            </div>
+        </div>
+        <div class="container section2">
+            <div class="section__title">
+                <h1> Section 2 </h1>
+            </div>
+        </div>
+        <div class="container section3">
+            <div class="section__title">
+                <h1> Section 3 </h1>
+            </div>
+        </div>
+        <div class="modal-container">
+            <div class="modal">
+                <h2 class="modal-title">Cliquez pour obtenir mon profil</h2>
+                <!--ne s'affiche que si on clique sur le bouton -->
+                <p class="profil-linkedin"><a href="https://www.linkedin.com/in/jonathan-engles74/"
+                        target="_blank">Jonathan Engles</a></p>
+                <!--icone de la croix pour fermer la modale-->
+                <i class="icon fas fa-times"></i>
+                <button type="button">Obtenir le profil</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

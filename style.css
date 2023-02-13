@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    font-family: arial;
+    color: white
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2337;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* backgroud des sections */
+.section1 {
+    background-color: #0000ff;
+}
+
+.section2 {
+    background-color: #ff5e00;
+}
+
+.section3 {
+    background-color: #158a0a;
+}
+
+.section__title{
+    align-self: center;
+    font-size: 5em;
+}
+
+.modal-container {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left:0;
+    background: #3f5efb;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    padding: 3rem;
+    color: black;
+    box-shadow: 3px 3px 5px #1E2337;
+}
+
+.icon {
+    
+    position: absolute;
+    top:0.1rem;
+    right:0.5rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #3f5efb;
+    transition: 1s;
+    
+}
+
+
+
+.icon:hover {
+    transform: rotate(45deg);
+}
+
+
+.modal-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px #1E2337;
+}
+
+.profil-linkedin {
+    display: none;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #0A66C2;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+}
+
+.profil-linkedin:active {
+    box-shadow: inset 2px 2px 5px black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+button {
+    height: 4rem;
+    font-size: 2rem;
+    background-color: #0A66C2;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 4px black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
