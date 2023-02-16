@@ -87,8 +87,10 @@ body {
     text-shadow: 2px 2px 5px #1E2337;
 }
 
-.profil-linkedin {
+.profil-linkedin, .submit {
+   
     display: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     justify-content: center;
     font-size: 2rem;
     background-color: #0A66C2;
@@ -96,32 +98,16 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 5px black;
-}
-
-.profil-linkedin:active {
-    box-shadow: inset 2px 2px 5px black;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    
-}
-
-button {
-    font-size: 2rem;
-    background-color: #0A66C2;
-    color: white;
-    padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: 1px 4px 4px black;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    width: 100%;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
 
-button:active {
+.profil-linkedin:active, .submit:active {
     box-shadow: inset 2px 2px 5px black;
+}
+
+
+.submit {
+   display: flex;
 }

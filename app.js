@@ -3,7 +3,7 @@ console.log('Hello World');
 const modal = document.querySelector('.modal-container');
 
 //on sélectionne et on stocke le bouton 
-const btn = document.querySelector('button');
+const btn = document.querySelector('.submit');
 
 const profil = document.querySelector('.profil-linkedin');
 
@@ -31,6 +31,10 @@ btn.addEventListener('click', () => {
 
   //...et disparaitre le bouton
   btn.style.display = 'none';
+});
+
+profil.addEventListener('click', () => {
+  window.open('https://www.linkedin.com/in/jonathan-engles74/', '_blank');
 });
 
 
