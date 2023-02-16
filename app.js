@@ -18,7 +18,11 @@ function displayModale() {
   //   console.log(hauteur + 'nb de pixels parcouru depuis le haut');
   if ( hauteur > 1000) {
     console.log('affichage de la modale!!');
-    modal.style.display = 'flex';
+    modal.classList.add('display');
+    //ajout du time out avoir un fondu dans l'apparitio nde la modale
+    setTimeout(function() {
+      modal.classList.add('show');
+    }, 0);
   }
 }
 

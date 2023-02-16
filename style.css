@@ -50,6 +50,16 @@ body {
     align-items: center;
 }
 
+.display {
+    display: flex;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.show {
+        opacity: 1;
+}
+
 .modal {
     
     background-color: white;
