@@ -97,7 +97,7 @@ body {
     text-shadow: 2px 2px 5px #1E2337;
 }
 
-.profil-linkedin, .submit {
+.submit {
    
     display: none;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -113,7 +113,7 @@ body {
     width: 100%;
 }
 
-.profil-linkedin:active, .submit:active {
+.submit:active {
     box-shadow: inset 2px 2px 5px black;
 }
 
